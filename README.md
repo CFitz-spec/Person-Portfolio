@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my Portfolio website!
 
-## Getting Started
+This website uses: React, NextJs, TailWind, and Framer-motion.
 
-First, run the development server:
+This site will be hosted for free on Vercel with the link here
 
-```bash
+To get started!
+
+Download the files from this repo onto your system
+
+Then
+
+npm i
+
+to download the packages
+
+Then
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+to get the website loaded onto your localhost 3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project was made with the help of the Youtuber
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Code and Create
+https://www.youtube.com/@codeandcreate
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+A very useful and easy to follow walkthrough on how to make this portfolio website can be found there

@@ -12,6 +12,15 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+    screens: {
+      //priorities larger screens first.
+      xl: { max: "1400px" },
+      lg: { max: "1150px" },
+      md: { max: "767px" },
+      sm: { max: "639px" },
+      xs: { max: "393px" },
+    },
   },
   plugins: [],
+  darkMode: "class",
 };
