@@ -6,10 +6,10 @@ import GithubLineIcon from "remixicon-react/GithubLineIcon";
 import LinkedinLineIcon from "remixicon-react/LinkedinLineIcon";
 
 export const heroIcons = [
-  <FacebookCircleLineIcon />,
-  <WhatsappIcon />,
-  <GithubLineIcon />,
-  <LinkedinLineIcon />,
+  <FacebookCircleLineIcon key={1} />,
+  <WhatsappIcon key={2} />,
+  <GithubLineIcon key={3} />,
+  <LinkedinLineIcon key={4} />,
 ];
 export const iconUrl = [
   "https://www.facebook.com/cayman.fitzhugh",
@@ -211,8 +211,14 @@ import StarHalfLineIcon from "remixicon-react/StarHalfLineIcon";
 import ArrowLeftSLineIcon from "remixicon-react/ArrowLeftSLineIcon";
 import ArrowRightSLineIcon from "remixicon-react/ArrowRightSLineIcon";
 
-export const starIcons = [<StarFillIcon />, <StarHalfLineIcon />];
-export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />];
+export const starIcons = [
+  <StarFillIcon key={5} />,
+  <StarHalfLineIcon key={6} />,
+];
+export const arrowIcons = [
+  <ArrowLeftSLineIcon key={7} />,
+  <ArrowRightSLineIcon key={8} />,
+];
 
 export const reviewData = [
   {

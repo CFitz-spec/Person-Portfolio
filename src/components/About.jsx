@@ -21,7 +21,7 @@ const About = () => {
                     <p className="dark:text-white text-lg font-light text-gray-700 first-letter:pl-3 lg:text-[16px] sm:text-[14px]">
                         {aboutText}
                     </p>
-                    <a href="/Assets/nick-cv.pdf" download=""
+                    <a href="/Assets/Cayman Fitzhugh CV.pdf" download=""
                         className="w-max flex items-center gap-x-2 mt-6 rounded-full border border-gray-300 bg-red-400 px-3 py-2 font-light text-white hover:bg-red-500 transition-colors">
                         <span>Download CV</span>
                         <span className="text-xl">{DownloadIcon}</span>
