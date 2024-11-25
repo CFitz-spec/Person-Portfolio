@@ -266,7 +266,7 @@ export const projectData = [
   {
     name: "DCAY",
     desc: "My own Digital Currency DCAY. Using Ubuntu, Dfinities's Motoko, and Web3 technologies. I was able to create my own Digital token",
-    url: "/Assets/projects/DCayFaucet.png",
+    url: "/Assets/projects/DCayFaucet.PNG",
     tech: ["Dfinity", "React"],
   },
   {
@@ -278,13 +278,13 @@ export const projectData = [
   {
     name: "Keeper",
     desc: "A note-taking App. Seeker uses React, ExpressJS, and PostgresSQL. This App allows users to create their own notes and save them into a database for persistance storage.",
-    url: "/assets/projects/Keeper.PNG",
+    url: "/Assets/projects/Keeper.PNG",
     tech: ["Express", "React", "PostgresSQL", "CSS"],
   },
   {
     name: "PortFolio website",
     desc: "My Portfolio website! Maybe this is cheating? But within this website I've used Nextjs for its routing and backend functionality and Framer-motion to provide the animation for each section.",
-    url: "/assets/projects/Portfolio.png",
+    url: "/Assets/projects/Portfolio.PNG",
     tech: ["React", "NextJS", "Tailwind", "Framer"],
   },
 ];
