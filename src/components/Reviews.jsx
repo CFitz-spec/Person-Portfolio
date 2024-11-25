@@ -73,7 +73,7 @@ const Reviews = () => {
                                 height={130}
                                 unoptimized={true}
                             />
-                            <h1>{review.image}</h1>
+
                             <h1 className="text-2xl md:text-xl text-center tracking-wider text-yellow-600 " >{review.name}</h1>
                             <p className="text-lg md:text-sm text-justify font-extralight tracking-wide text-gray-600 first-letter:pl-2 dark:text-white transition-colors "  >
                                 {review.comment}

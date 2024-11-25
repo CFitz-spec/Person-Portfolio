@@ -24,7 +24,8 @@ const Project = ({ data, index }) => {
                 src={data.url}
                 alt="Project Image"
                 width={400}
-                height={400} />
+                height={400}
+                unoptimized={true} />
             <motion.div
                 intial={{ opacity: 0 }}
                 animate={{ opacity: show ? 1 : 0 }}
