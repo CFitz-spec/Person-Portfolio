@@ -41,7 +41,8 @@ const Skills = () => {
                             key={i} className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 px-5 py-2 lg:px-2">
                             <Image
                                 className="h-auto w-[40px]"
-                                src={data.icon} alt={`${data.name} image`} width={100} height={100} />
+                                src={data.icon} alt={`${data.name} image`} width={100} height={100} unoptimized={true} />
+
                             <p className="text-sm text-gray-600">{data.name}</p>
                         </motion.div>
                     ))

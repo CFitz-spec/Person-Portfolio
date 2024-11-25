@@ -113,7 +113,7 @@ export const skillsData = [
   },
   {
     name: "CSS",
-    icon: "/Assets/skills/css.png ",
+    icon: "/Assets/skills/css.png",
   },
   {
     name: "NextJs",
@@ -222,7 +222,7 @@ export const arrowIcons = [
 
 export const reviewData = [
   {
-    image: "/assets/reviews/client-1.png",
+    image: `/Assets/reviews/client-1.png`,
     name: "Bob.B Lifestyle Blogger",
     comment: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
     Quas est error consectetur, minus iste eos. 
@@ -231,7 +231,7 @@ export const reviewData = [
     stars: [1, 1, 1, 1, 1],
   },
   {
-    image: "/assets/reviews/client-2.png",
+    image: `/Assets/reviews/client-2.png`,
     name: "Peter.T Freelance Graphic Designer",
     comment: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
     Quas est error consectetur, minus iste eos. 
@@ -240,7 +240,7 @@ export const reviewData = [
     stars: [1, 1, 1, 1, 0.5],
   },
   {
-    image: "/assets/reviews/client-3.png",
+    image: `/Assets/reviews/client-3.png`,
     name: "Jenny.P Bicycle Shop Owner",
     comment: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
     Quas est error consectetur, minus iste eos. 

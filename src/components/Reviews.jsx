@@ -45,6 +45,8 @@ const Reviews = () => {
         prevIndex.current = index
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [index])
+
+    console.log(reviewData)
     return (
         <div id="reviews" className="my-20">
             <Heading text={"Reviews"} />
@@ -69,7 +71,9 @@ const Reviews = () => {
                                 alt={"Review Client Image"}
                                 width={130}
                                 height={130}
+                                unoptimized={true}
                             />
+                            <h1>{review.image}</h1>
                             <h1 className="text-2xl md:text-xl text-center tracking-wider text-yellow-600 " >{review.name}</h1>
                             <p className="text-lg md:text-sm text-justify font-extralight tracking-wide text-gray-600 first-letter:pl-2 dark:text-white transition-colors "  >
                                 {review.comment}

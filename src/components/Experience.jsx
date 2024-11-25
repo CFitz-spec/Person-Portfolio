@@ -30,12 +30,12 @@ const Experience = () => {
         <div id="experience" className="relative py-20 ">
             <Heading text={"Experience & Education"} />
             <Image
-                src={"/Assets/Education.png"}
+                src={"/Assets/education.png"}
                 alt="Experience Image"
                 width={400}
                 height={400}
                 className="absolute -top-4 right-0 opacity-70 lg:hidden"
-            />
+                unoptimized={true} />
             <div ref={containerRef}
                 className="relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-2 py-10">
 
