@@ -1,3 +1,8 @@
+##Fourth Commit update!
+
+This was commit was an attempt to fix the problems of images not loading on the deployed website correctly. 
+After some research, I found that I need to add the unoptimized prop to the Image element from Next.js 
+
 This is my Portfolio website!
 
 This website uses: React, NextJs, TailWind, and Framer-motion.
