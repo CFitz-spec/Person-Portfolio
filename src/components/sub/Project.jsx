@@ -18,7 +18,7 @@ const Project = ({ data, index }) => {
             }
             }
             onClick={() => setShow((show) => !show)}
-
+            unoptimized="true"
             className="relative w-[350px] sm:w-full h-max border border-yellow-400 rounded-lg cursor-pointer">
             <Image className="rounded-lg opacity-70"
                 src={data.url}

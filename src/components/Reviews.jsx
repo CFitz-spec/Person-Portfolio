@@ -46,7 +46,6 @@ const Reviews = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [index])
 
-    console.log(reviewData)
     return (
         <div id="reviews" className="my-20">
             <Heading text={"Reviews"} />
