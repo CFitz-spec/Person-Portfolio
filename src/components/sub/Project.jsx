@@ -24,7 +24,7 @@ const Project = ({ data, index }) => {
                 src={data.url}
                 alt="Project Image"
                 width={600}
-                height={200}
+                height={600}
                 unoptimized={true}
             />
             <motion.div
