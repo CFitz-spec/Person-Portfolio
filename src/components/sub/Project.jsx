@@ -23,9 +23,10 @@ const Project = ({ data, index }) => {
             <Image className="rounded-lg opacity-70"
                 src={data.url}
                 alt="Project Image"
-                width={400}
+                width={600}
                 height={200}
-                unoptimized={true} />
+                unoptimized={true}
+            />
             <motion.div
                 intial={{ opacity: 0 }}
                 animate={{ opacity: show ? 1 : 0 }}
