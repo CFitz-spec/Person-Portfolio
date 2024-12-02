@@ -281,12 +281,12 @@ export const projectData = [
     url: "/Assets/projects/Keeper.PNG",
     tech: ["Express", "React", "PostgresSQL", "CSS"],
   },
-  {
-    name: "PortFolio website",
-    desc: "My Portfolio website! Maybe this is cheating? But within this website I've used Nextjs for its routing and backend functionality and Framer-motion to provide the animation for each section.",
-    url: "/Assets/projects/Portfolio.PNG",
-    tech: ["React", "NextJS", "Tailwind", "Framer"],
-  },
+  // {
+  //   name: "PortFolio website",
+  //   desc: "My Portfolio website! Maybe this is cheating? But within this website I've used Nextjs for its routing and backend functionality and Framer-motion to provide the animation for each section.",
+  //   url: "/Assets/projects/Portfolio.PNG",
+  //   tech: ["React", "NextJS", "Tailwind", "Framer"],
+  // },
 ];
 
 export const projectsButton = [
