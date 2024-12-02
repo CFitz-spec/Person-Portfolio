@@ -276,17 +276,17 @@ export const projectData = [
     tech: ["Dfinity", "React"],
   },
   {
+    name: "PortFolio website",
+    desc: "My Portfolio website! Maybe this is cheating? But within this website I've used Nextjs for its routing and backend functionality and Framer-motion to provide the animation for each section.",
+    url: "/Assets/projects/Portfolio.PNG",
+    tech: ["React", "NextJS", "Tailwind", "Framer"],
+  },
+  {
     name: "Keeper",
     desc: "A note-taking App. Seeker uses React, ExpressJS, and PostgresSQL. This App allows users to create their own notes and save them into a database for persistance storage.",
     url: "/Assets/projects/Keeper.PNG",
     tech: ["Express", "React", "PostgresSQL", "CSS"],
   },
-  // {
-  //   name: "PortFolio website",
-  //   desc: "My Portfolio website! Maybe this is cheating? But within this website I've used Nextjs for its routing and backend functionality and Framer-motion to provide the animation for each section.",
-  //   url: "/Assets/projects/Portfolio.PNG",
-  //   tech: ["React", "NextJS", "Tailwind", "Framer"],
-  // },
 ];
 
 export const projectsButton = [
